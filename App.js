@@ -11,8 +11,11 @@ return (
 
       <View style={styles.secondaryContainer}>
         <Text style={{color:'blue', fontSize:30,fontWeight:'bold', textAlign:'right'}}>Pedro Henrique Longo</Text> 
+
         <Text style={{fontSize:25,fontStyle:'italic', border: 'solid', borderWhidt:'1', borderColor: 'black', textAlign:'left'}}>31</Text> 
+
         <Text style={{fontSize:20, textAlign:'center', backgroundColor: 'pink'}}>Sala 7</Text>
+
         <Text style={{fontSize:35, textAlign:'center', backgroundColor: 'blue', border: 'solid', borderWhidt:'1', borderColor: 'black'}}>SENAI</Text>
       </View>
 
