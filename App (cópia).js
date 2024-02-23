@@ -1,6 +1,7 @@
 
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { TextInput } from 'react-native-web';
 
 export default function App() {
 return (
@@ -22,9 +23,17 @@ return (
       <View style={{ backgroundColor: 'gray', width: '100%', height: 60 }}>
       </View>
 
+<TextInput style={styles.inputName}
+placerholder='Senha'
+color= 'black'
+inputMode= 'email' 
+
+
+/>
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
